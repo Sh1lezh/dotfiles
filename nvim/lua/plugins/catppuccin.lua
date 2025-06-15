@@ -1,7 +1,7 @@
 return {
   "catppuccin/nvim",
   name = "catppuccin",
-  lazy = false, -- Ensure the theme loads immediately
+  lazy = false, 
   priority = 1000,
   config = function()
     local ok, _ = pcall(vim.cmd.colorscheme, "catppuccin-mocha")
